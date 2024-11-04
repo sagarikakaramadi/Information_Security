@@ -2,6 +2,7 @@
 This repository demonstrates a secure message encryption and decryption system using Elliptic Curve Cryptography (ECC) for key exchange and AES-GCM for encryption. The implementation enables secure, end-to-end encrypted communication, allowing two parties to securely exchange a secret key and encrypt/decrypt messages.
 
 **Features**:
+
 **1. ECC Key Generation**: Creates ECC key pairs for secure communication.
 **2. ECDH Key Exchange**: Uses Elliptic Curve Diffie-Hellman to derive a shared secret key between two parties.
 **3. AES-GCM Encryption**: Encrypts messages using the shared key with AES-GCM, which provides confidentiality and integrity.
